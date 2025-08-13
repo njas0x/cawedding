@@ -1,5 +1,1 @@
-# cawedding
-# cawedding
-# cawedding
-# cawedding
-# cawedding
+# AI-Powered Wedding Planner Hiring System (Node.js/TypeScript)

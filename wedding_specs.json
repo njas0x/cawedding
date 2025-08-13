@@ -8,7 +8,7 @@
   
   "non_negotiables": {
     "venue_zones": {
-      "main_dining": "80-100 guests at round tables, stage for ceremonies",
+      "main_dining": "200-220 guests at round tables, stage for ceremonies",
       "lounge_arcade": "secondary space opening at 7:45pm",
       "entrance_hall": "red envelope station and guestbook",
       "window_side": "VIP seating or photo area"
@@ -99,16 +99,16 @@
   
   "budget_breakdown": {
     "venue_and_food": "$15,000-20,000",
-    "planner_fee": "$3,000-5,000",
+    "planner_fee": "$5,000-10,000",
     "photography": "$2,000-3,000",
     "mc_and_av": "$1,000-1,500",
     "flowers_minimal": "$500-1,000",
     "misc_red_envelopes_signage": "$500",
-    "total_realistic": "$25,000-30,000"
+    "total_realistic": "$50,000-100,000"
   },
   
   "timeline": {
-    "wedding_date": "December 2025",
+    "wedding_date": "January 2026",
     "hire_planner_by": "September 1, 2025",
     "planning_window": "3-4 months",
     "search_period": "August 13-27, 2025"

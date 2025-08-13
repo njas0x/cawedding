@@ -1,4 +1,4 @@
-# AI-Powered Wedding Planner Hiring System
+# AI-Powered Wedding Planner Hiring System (Node.js/TypeScript)
 
 ## Overview
 System to find and hire a wedding planner for an authentic 80s/90s Asian banquet wedding in Orange County, CA. Built on 80-20 principle: 3 AI agents handle research and outreach with minimal human involvement.
@@ -15,7 +15,7 @@ System to find and hire a wedding planner for an authentic 80s/90s Asian banquet
 ### Non-Negotiable Requirements
 
 #### Venue Layout
-- **Main Dining Area**: 200~ guests at round tables with lazy Susans, stage for ceremonies
+- **Main Dining Area**: 200-220 guests at round tables with lazy Susans, stage for ceremonies
 - **Lounge/Arcade**: Secondary space opening mid-evening for games and mingling
 - **Entrance Hall**: Welcome area with red envelope station, guestbook
 - **Window Side**: VIP seating or photo moment area
@@ -65,10 +65,10 @@ System to find and hire a wedding planner for an authentic 80s/90s Asian banquet
 ---
 
 ## Project Specifics
-- **Date**: Jan 2026
+- **Date**: January 2026
 - **Location**: Orange County, CA (Chinese restaurant with banquet facilities)
-- **Guest Count**: 200 (8-10 round tables)
-- **Budget**: Open
+- **Guest Count**: 200-220 (8-10 round tables)
+- **Budget**: $50K-100K total wedding (planner fee $5K-10K)
 - **Timeline**: Hire planner by September 1, 2025 (3-4 month execution)
 - **Urgency**: Need to start within weeks - emphasize in all outreach
 - **Success Criteria**: Shortlist 5-10 planners; secure 3-5 intro calls; hire by September 1, 2025; provide handoff brief with all specs
@@ -79,19 +79,21 @@ System to find and hire a wedding planner for an authentic 80s/90s Asian banquet
 - **Human Role**: Minimal—provide initial specs JSON (10 min), approve shortlist/outreach batches (15-30 min), attend calls (1-2 hours), make final decision (30 min)
 - **AI Role**: Delegate 80% to automation: Handle data gathering, analysis, communications, logging
 
-### 2. Agent Specifications
+## 2. Agent Specifications (Node.js Implementation)
 
 | Agent | Primary Tasks | Tools Used | Key Outputs |
 |-------|--------------|------------|-------------|
-| **Researcher** | • Search WeddingWire/The Knot for "Asian-owned"<br>• Scrape Instagram (#ChineseBanquetWedding #OCChineseWedding)<br>• Find planners mentioning specific venues (Capital Seafood, etc)<br>• Target 20-50 profiles | Apify, Web scrapers | Raw dataset in Airtable (name, contact, Chinese wedding experience, venue relationships) |
-| **Analyzer** | • Score planners (1-10 scale)<br>• Weight: 40% Chinese banquet experience, 30% authentic approach, 20% OC venue relationships, 10% availability<br>• Shortlist top 5-10<br>• Flag red flags (over-stylized, no restaurant experience) | OpenAI GPT-4o, Scoring algorithms | Ranked shortlist with experience summaries, scores, compatibility flags |
-| **Outreach** | • Generate personalized emails emphasizing authentic approach<br>• Track responses & follow up (48hr)<br>• Schedule calls via Calendly<br>• Log all communications | Twilio, Calendly API | Communication logs, scheduled calls, response tracking |
+| **Researcher** | • Search WeddingWire/The Knot for multicultural planners<br>• Scrape Instagram (#OCWeddingPlanner, #AsianWeddingOC, #MulticulturalWeddingCA)<br>• Find planners with "tea ceremony" or "bilingual MC" keywords<br>• Target 20-50 profiles | Apify SDK, TypeScript | Raw dataset in Airtable (name, contact, bio, reviews, portfolio links, estimated experience level) |
+| **Analyzer** | • Score planners (1-10 scale)<br>• Weight: 40% multicultural fit, 30% timeline availability, 30% reviews/sentiment<br>• Use OpenAI GPT-4o for bio summarization<br>• Shortlist top 5-10, flag ambiguities | OpenAI SDK, scoring algorithms | Ranked shortlist in Airtable (with summaries, scores, flags) |
+| **Outreach** | • Generate personalized emails via Twilio<br>• Track responses & auto-follow up after 48hr<br>• Schedule calls via Calendly API<br>• Log all communications | Twilio SDK, Calendly API | Communication logs in Airtable (status, responses, call summaries) |
 
 **Agent Operating Rules**:
 - Reference shared Airtable state for data handoffs
-- Log all actions with timestamps
-- Retry on errors (e.g., after 48 hours for non-responses)
+- Log all actions with timestamps (Winston logger)
+- Retry on errors with exponential backoff
 - Flag for human review: Low-confidence results (<70% match), potential biases, or compliance issues
+- Disclose AI use in all outreaches ("This is an AI-assisted inquiry")
+- Comply with CAN-SPAM (opt-out links)
 
 ### 3. Workflow Steps
 
@@ -108,21 +110,49 @@ Day 13-14: Analyzer compiles rankings → Human decides → Outreach drafts hand
 - Batch outreach message approval
 - Final hiring decision
 
-### 4. Tech Stack & Budget
+### 4. Tech Stack & Budget (Node.js)
 
 | Tool | Purpose | Cost | Notes |
 |------|---------|------|-------|
 | Claude Code | Orchestrator, script generation | $10-20/mo | Anthropic API, usage-based |
-| CrewAI | Multi-agent framework | Free | Local installation |
-| Apify | Web scraping (ethical) | $49/mo | Starter plan + pay-as-you-go |
+| Node.js/TypeScript | Runtime & type safety | Free | Local development |
+| Apify SDK | Web scraping (ethical) | $49/mo | Starter plan + pay-as-you-go |
 | Airtable | Central database | Free | API-integrated for real-time updates |
 | OpenAI GPT-4o | Analysis & summarization | $10-20/mo | <1M tokens target |
-| Twilio | Email/SMS outreach | $20-30/mo | Pay-per-use |
+| Twilio SendGrid | Email outreach | $20-30/mo | Pay-per-use |
 | Calendly | Call scheduling | $10/mo | Standard plan |
+| Winston | Logging | Free | NPM package |
 
 **Total Budget**: <$150/month
 
-### 5. Ethics & Compliance Guidelines
+### 5. Node.js Project Structure
+```
+src/
+├── agents/
+│   ├── researcher.ts      # Instagram/web scraping agent
+│   ├── analyzer.ts        # AI-powered scoring & analysis
+│   └── outreach.ts        # Email automation & scheduling
+├── orchestrator/
+│   ├── index.ts          # Main entry point & CLI
+│   └── workflow.ts       # Agent coordination logic
+├── lib/
+│   ├── airtable.ts       # Database operations
+│   ├── openai.ts         # AI integration
+│   ├── apify.ts          # Web scraping
+│   ├── twilio.ts         # Email/SMS
+│   └── calendly.ts       # Scheduling
+├── utils/
+│   ├── logger.ts         # Winston logging setup
+│   ├── costs.ts          # Usage monitoring
+│   └── validation.ts     # Input validation
+├── types/
+│   └── index.ts          # TypeScript definitions
+└── config/
+    ├── default.json      # Default settings
+    └── production.json   # Production overrides
+```
+
+### 6. Ethics & Compliance Guidelines
 
 #### Must Follow:
 - **Privacy (CCPA)**: Scrape only public data; anonymize personal info
