@@ -1,0 +1,142 @@
+{
+  "vision": {
+    "core": "authentic 80s/90s Asian banquet wedding",
+    "approach": "pragmatic like it was actually done then",
+    "modern_twist": "relaxed second half with lounge/arcade",
+    "audience": "memorable for first-timers to this tradition"
+  },
+  
+  "non_negotiables": {
+    "venue_zones": {
+      "main_dining": "80-100 guests at round tables, stage for ceremonies",
+      "lounge_arcade": "secondary space opening at 7:45pm",
+      "entrance_hall": "red envelope station and guestbook",
+      "window_side": "VIP seating or photo area"
+    },
+    "program_anchors": [
+      "grand entrance (2 min)",
+      "tea ceremony on stage (10-12 min)",
+      "family + friend toasts (6-8 min total)",
+      "cake/champagne moment (3-4 min)",
+      "group photo on stage (5-7 min)",
+      "table-to-table visits during dinner"
+    ],
+    "flow": {
+      "unified_start": "6:00-7:45pm all in main dining",
+      "lounge_opens": "7:45pm after ceremonies",
+      "mc_recalls": ["8:45pm group photo", "9:45pm final thanks"]
+    }
+  },
+  
+  "atmosphere": {
+    "feeling": "warm, bustling, lived-in banquet hall",
+    "aesthetic": "venue's existing decor plus minimal red/gold touches",
+    "sensory": {
+      "sound": "Cantopop, chatter, clinking dishes, karaoke",
+      "smell": "Chinese banquet food throughout",
+      "visual": "warm lighting, not production lighting",
+      "taste": "8-10 course traditional banquet"
+    },
+    "memorable_elements": [
+      "authentic tea ceremony",
+      "table lazy Susans spinning",
+      "uncle singing karaoke",
+      "kids running between tables",
+      "genuine candid moments"
+    ]
+  },
+  
+  "food_specifications": {
+    "style": "Traditional Cantonese banquet",
+    "courses": "8-10 courses",
+    "must_include": [
+      "roast suckling pig",
+      "seafood soup",
+      "steamed whole fish",
+      "lobster or crab",
+      "fried rice",
+      "dessert/sweet soup"
+    ],
+    "service": "family style with lazy Susan",
+    "pacing": "restaurant controls timing"
+  },
+  
+  "planner_profile": {
+    "essential_experience": [
+      "Chinese restaurant banquet weddings",
+      "Working with OC Chinese restaurants",
+      "Understanding restaurant-run model",
+      "Tea ceremony coordination"
+    ],
+    "must_understand": [
+      "Restaurant runs the show",
+      "Work WITH existing setup",
+      "Authenticity over aesthetics",
+      "Simple is better"
+    ],
+    "red_flags": [
+      "Portfolio full of styled shoots",
+      "Wants to transform venue",
+      "No Chinese banquet experience",
+      "Overproduction tendency",
+      "Too many vendor suggestions"
+    ],
+    "green_flags": [
+      "Has done Capital Seafood weddings",
+      "Understands restaurant packages",
+      "Minimal decoration approach",
+      "Respects traditional flow"
+    ]
+  },
+  
+  "specific_venues_to_consider": [
+    "Capital Seafood (various OC locations)",
+    "Sea Harbour Seafood Restaurant",
+    "King Harbor Seafood",
+    "Seafood Cove #2",
+    "Elite Restaurant"
+  ],
+  
+  "budget_breakdown": {
+    "venue_and_food": "$15,000-20,000",
+    "planner_fee": "$3,000-5,000",
+    "photography": "$2,000-3,000",
+    "mc_and_av": "$1,000-1,500",
+    "flowers_minimal": "$500-1,000",
+    "misc_red_envelopes_signage": "$500",
+    "total_realistic": "$25,000-30,000"
+  },
+  
+  "timeline": {
+    "wedding_date": "December 2025",
+    "hire_planner_by": "September 1, 2025",
+    "planning_window": "3-4 months",
+    "search_period": "August 13-27, 2025"
+  },
+  
+  "day_of_schedule": {
+    "3:30pm": "Crew setup",
+    "5:15pm": "Couple arrives",
+    "6:00pm": "Doors open",
+    "6:40pm": "Grand entrance",
+    "6:45pm": "Course 1 served",
+    "6:55pm": "Tea ceremony",
+    "7:10pm": "Courses 2-3, table visits begin",
+    "7:35pm": "Toasts",
+    "7:45pm": "LOUNGE OPENS, courses 4-5",
+    "8:15pm": "Cake/champagne",
+    "8:45pm": "Group photo",
+    "9:00pm": "Karaoke/free flow",
+    "9:45pm": "Final thanks",
+    "10:00pm": "Service ends",
+    "10:30pm": "Hard stop"
+  },
+  
+  "outcome_goals": [
+    "Elders feel respected through proper traditions",
+    "Friends enjoy relaxed second half",
+    "First-timers remember unique experience",
+    "Flow feels natural and effortless",
+    "Authentic without being rigid"
+  ]
+}
