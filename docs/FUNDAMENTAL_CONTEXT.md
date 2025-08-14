@@ -1,126 +1,267 @@
-# Fundamental Context Write-Up for AI Agents in the Agentic Wedding Planner Hiring System
+# Fundamental Context for AI Agents: Wedding Planner Hiring System
 
-This document serves as the core reference guide for all AI agents (Researcher, Analyzer, Outreach) in the system. It provides a comprehensive, self-contained overview of the project, ensuring agents operate with shared understanding, alignment on goals, and adherence to ethical standards. Agents must reference this context in all decision-making, task execution, and outputs to maintain consistency, minimize errors, and delegate maximally while respecting human gates. The system is built on the 80-20 principle: Use minimal agents (3) to automate 80% of the workflow, with human effort limited to <3 hours total (specs input, calls, decision).
+> **Purpose**: This document serves as the core reference guide for all AI agents (Researcher, Analyzer, Outreach) in the system. It provides a comprehensive, self-contained overview of the project, ensuring agents operate with shared understanding, alignment on goals, and adherence to ethical standards.
+
+**Key Principle**: Agents must reference this context in all decision-making, task execution, and outputs to maintain consistency, minimize errors, and delegate maximally while respecting human gates.
+
+**System Philosophy**: Built on the 80-20 principle—use minimal agents (3) to automate 80% of the workflow, with human effort limited to <3 hours total (specs input, calls, decision). This setup leverages AI for efficiency, focusing on a streamlined process to hire a planner who can deliver an authentic, culturally resonant wedding experience.
+
+---
 
 ## 1. Project Goal and Scope
 
 ### Primary Objective
-Autonomously identify, vet, outreach to, schedule calls with, and facilitate hiring of 1-3 full-service wedding planners experienced in multicultural weddings (focus on Asian traditions). The hired planner will have 3-4 months to execute the full wedding, emphasizing urgency in all interactions.
+Autonomously identify, vet, outreach to, schedule calls with, and facilitate hiring of **1-3 full-service wedding planners** experienced in multicultural weddings (with a strong focus on Asian traditions, particularly Chinese/Cantonese customs). The hired planner will have **3-4 months** to execute the full wedding, emphasizing urgency in all interactions to ensure timely delivery without compromising cultural authenticity.
+
+### Wedding Vision
+*To help agents visualize and align:*
+
+The wedding is an **authentic recreation of 1980s–1990s Chinese restaurant banquets** as done by immigrant families in US Chinatowns or suburbs (e.g., Monterey Park or Irvine). Picture a bustling Cantonese seafood restaurant in Orange County, filled with 200-220 guests at round tables with Lazy Susans, serving symbolic 8-10 course meals (e.g., whole suckling pig for prosperity, steamed fish for abundance).
+
+**Atmosphere**: Warm and familiar—elders sharing stories in Cantonese over Tsingtao beer, younger guests mixing English conversations, kids playing amid clinking glasses and steaming dim sum aromas.
+
+**Décor**: Venue-standard—red curtains, gold accents, 囍 symbols, glossy tiled floors under warm incandescent lighting.
+
+**Key Traditions**:
+- Tea ceremony on a simple stage (bride/groom serving tea to elders for blessings and red envelopes)
+- Bilingual announcements (Cantonese/English)
+- Natural flow without staging—guests mingle post-dinner in a lounge with karaoke of 80s/90s hits like Teresa Teng songs
+
+**Modern Touches**: A secondary lounge for mingling with light games (e.g., mahjong). No over-styling or Instagram twists—keep it genuine, as if captured on vintage film.
 
 ### Wedding Specifics
 
-- **Date**: Target January 2026 (or as specified in JSON inputs; adjust for 3-4 month execution window from hire date ~September 1, 2025).
-- **Location**: Orange County, CA (venue already booked; include details like address/capacity if provided in specs).
-- **Guest Count**: 200-220.
-- **Cultural Elements**: Must-have experience with Asian traditions, including tea ceremony, attire changes, bilingual MC (e.g., Mandarin/English). Prioritize planners who can integrate these seamlessly.
-- **Services Required**: Full-service (end-to-end planning, vendor coordination, day-of execution).
-- **Budget**: $50K-100K total wedding (planner fee $5K-10K; query for exacts if needed).
-- **Preferences**: Eco-friendly options preferred; deal-breakers include unavailability for rushed timelines or lack of multicultural expertise.
-- **Urgency**: Emphasize short execution window in all outreaches (e.g., "Need to start planning within weeks for 3-4 month delivery").
+| Category | Details |
+|----------|---------|
+| **Date** | Target January 2026 (exact mid-month for auspicious timing; adjust for 3-4 month execution window from hire date ~September 1, 2025) |
+| **Location** | Orange County, CA (e.g., Irvine or Westminster; venue like traditional Cantonese seafood restaurant such as Capital Seafood) |
+| **Guest Count** | 200-220 (multi-generational mix: family from Asia/US, friends, colleagues) |
+| **Capacity** | Main hall and lounge for 200-220 guests |
+| **Cultural Elements** | Must-have experience with Asian traditions: tea ceremony, attire changes, bilingual MC, red envelope system, symbolic Cantonese banquet dishes |
+| **Services Required** | Full-service (end-to-end planning, vendor coordination, day-of execution) |
+| **Budget** | $50K-100K total wedding (planner fee $5K-10K; venue/food $15-20K; photography $2-3K; other $2-3K) |
+| **Preferences** | Eco-friendly options preferred; deal-breakers include unavailability for rushed timelines, lack of multicultural expertise, or attempts to "modernize" |
+| **Urgency** | Emphasize short execution window in all outreaches |
 
 ### Success Criteria
-- Shortlist 5-10 planners
-- Secure 3-5 intro calls
-- Hire by September 1, 2025
-- Provide handoff brief with all specs
+
+- ✅ Shortlist 5-10 planners with strong multicultural matches
+- ✅ Secure 3-5 intro calls (15-30 min each, via Calendly)
+- ✅ Hire by September 1, 2025
+- ✅ Provide handoff brief with all specs (recap vision, timeline, budget, expectations)
 
 ### Timeline
-~2 weeks (August 13-27, 2025): Build/research/outreach (Days 1-4), responses/scheduling/calls (Days 5-12), decision/handoff (Days 13-14).
+
+**Starting today (August 13, 2025) for ~2 weeks (through August 27, 2025)**:
+
+| Phase | Duration | Activities |
+|-------|----------|------------|
+| **Phase 1** | Days 1-4 | Build/research/outreach |
+| **Phase 2** | Days 5-12 | Responses/scheduling/calls |
+| **Phase 3** | Days 13-14 | Decision/handoff |
+
+*Buffer for weekends; notify humans immediately on delays.*
 
 ### Human Role
-Minimal—provide initial specs JSON (10 min), approve shortlist/outreach batches (15-30 min), attend calls (1-2 hours), make final decision (30 min). Agents must notify humans via Slack/email for gates; never proceed without approval on sensitive actions (e.g., sends).
+**Minimal involvement**—provide initial specs JSON (10 min), approve shortlist/outreach batches (15-30 min via Slack/email), attend calls (1-2 hours), make final decision (30 min).
+
+**Agent Responsibility**: Notify humans via Slack/email for gates (e.g., "Shortlist ready for approval"); never proceed without approval on sensitive actions.
 
 ### AI Role
-Delegate 80% to automation: Handle data gathering, analysis, communications, logging. Pause for human input on flagged ambiguities or ethical checks.
-
-## 2. Agent Roles and Responsibilities
-
-Agents operate in a CrewAI framework, orchestrated by Claude Code-generated scripts. Each agent must:
-
-- Reference shared Airtable state for data handoffs.
-- Log all actions (e.g., "Scraped X profiles at timestamp Y").
-- Retry on errors (e.g., after 48 hours for non-responses).
-- Flag for human review: Low-confidence results (e.g., <70% match on criteria), potential biases, or compliance issues.
-
-### Researcher Agent
-
-**Tasks**: Scrape public data from Instagram (hashtags: #OCWeddingPlanner, #AsianWeddingOC, #MulticulturalWeddingCA; extract bios, posts, followers) and wedding sites (WeddingWire/The Knot directories: search "full-service multicultural planners Orange County"). Target 20-50 initial items; focus on public profiles/pages only.
-
-**Outputs**: Raw dataset in Airtable (columns: name, contact, bio, reviews, portfolio links, estimated experience level).
-
-**Automation**: Fully autonomous; use Apify for ethical proxies/delays (1-5s/request to mimic humans).
-
-**Key Notes**: Limit depth to essentials (e.g., no comments if time >15 min); prioritize planners with "tea ceremony" or "bilingual MC" keywords.
-
-### Analyzer Agent
-
-**Tasks**: Vet data from Researcher; score planners (1-10 scale: 40% multicultural fit, 30% timeline availability, 30% reviews/sentiment). Use OpenAI GPT-4o for summarization (e.g., "Extract Asian traditions experience from bio"). Shortlist top 5-10; flag ambiguities (e.g., "Unclear on rushed timelines").
-
-**Outputs**: Ranked shortlist in Airtable (with summaries, scores, flags).
-
-**Automation**: Partially (AI scores; notify human for flag reviews).
-
-**Key Notes**: Mitigate bias with diverse keywords (e.g., include "Chinese wedding," "Indian-Asian fusion"); ensure scores reflect urgency (penalize non-responsive or booked profiles).
-
-### Outreach Agent
-
-**Tasks**: Generate/send templated emails/SMS via Twilio (personalized: "Hello [Name], inquiring for OC wedding with Asian tea ceremony..."); track responses; auto-follow up after 48 hours. Propose/schedule calls via Calendly API; log proposals/notes.
-
-**Outputs**: Communication logs in Airtable (status, responses, call summaries).
-
-**Automation**: Partially (AI drafts/sends; human approves batches).
-
-**Key Notes**: Disclose AI use ("This is an AI-assisted inquiry"); comply with CAN-SPAM (opt-out links); emphasize 3-4 month timeline.
-
-## 3. Tools and Integrations
-
-- **Core Orchestrator**: Claude Code (Anthropic API, usage-based $10-20/mo)—generate/refine scripts, handle reasoning loops.
-- **Agent Framework**: CrewAI (free local)—define multi-agent crews with shared tasks.
-- **Scraping**: Apify Starter ($39-49/mo + pay-go)—ethical web scraper for IG/wedding sites; use proxies to avoid bans.
-- **Storage/Logging**: Airtable Free—central database for all data (schemas: planners table, logs table); API-integrated for real-time updates.
-- **Analysis**: OpenAI API (GPT-4o, $10-20/mo)—for vetting/summarization.
-- **Comms/Scheduling**: Twilio pay-per-use ($20-30/mo) for emails/SMS; Calendly Standard ($10/mo) for call booking.
-
-### Integration Rules
-- All via APIs in scripts; no internet-dependent installs (use pre-available libs like requests).
-- Test connectivity; log API calls for audits.
-
-### Cost Management
-Monitor usage (e.g., <1M tokens); total < $150/mo.
-
-## 4. Ethical and Compliance Guidelines
-
-Agents must prioritize ethics in every action—non-compliance triggers immediate pause and human notification.
-
-- **Privacy (CCPA)**: Scrape/log only public, anonymized data; no personal info without consent (e.g., avoid emails from non-public sources).
-- **TOS Compliance**: No scraping logins/private data; use Apify's compliant mode; no auto-DMs on IG (TOS violation—use email alternatives).
-- **Bias Mitigation**: Use inclusive keywords (e.g., multiple Asian traditions variants); human reviews shortlists for cultural nuance.
-- **Transparency**: Disclose AI in outreaches (e.g., "Generated by AI system"); provide opt-out.
-- **Legal**: Adhere to CAN-SPAM (no spam, verified sender); audit logs for all actions (timestamped in Airtable).
-- **Sustainability**: Minimize API calls/energy (e.g., batch scrapes); prioritize eco-friendly planners if matched.
-- **Accountability**: If errors (e.g., bad shortlist), flag and retry; humans liable for finals.
-
-## 5. Workflow Steps and Handoffs
-
-- **Step 1 (Days 1-3)**: Human inputs specs JSON → Researcher scrapes → Analyzer vets/shortlists → Human approves shortlist.
-- **Step 2 (Days 4-8)**: Outreach sends contacts/follow-ups → Tracks responses → Schedules calls.
-- **Step 3 (Days 9-12)**: Humans attend calls; Outreach logs summaries.
-- **Step 4 (Days 13-14)**: Analyzer compiles rankings → Human decides → Outreach drafts handoff brief (specs recap, timeline, expectations).
-
-### Handoffs
-Use Airtable as shared state; agents poll for updates (e.g., Researcher outputs trigger Analyzer).
-
-### Error Handling
-Retries (e.g., 3x on scrape fails); escalate to human if unresolved.
-
-## 6. Risks and Mitigations
-
-- **Low Responses**: Mitigate: Follow up aggressively; expand shortlist if <3 replies.
-- **Timeline Delays**: Buffer for weekends; prioritize responsive planners in scoring.
-- **Data Inaccuracy**: Cross-validate (e.g., Analyzer checks reviews vs. bios); human flags.
-- **Costs/Tech Fails**: Monitor usage; fallback to manual if APIs down.
-- **Cultural Misalignment**: Agents flag non-exact matches; humans verify in calls.
+**Delegate 80% to automation**: Handle data gathering, analysis, communications, logging. Pause for human input on flagged ambiguities or ethical checks. Use reasoning loops to retry/refine autonomously where possible.
 
 ---
 
-This context is the "source of truth"—agents must align all operations to it. If ambiguities arise, query human via notification. System designed for extension (e.g., post-hire vendor assist) while keeping delegation maximal.
+## 2. Agent Roles and Responsibilities
+
+Agents operate in a **CrewAI framework**, orchestrated by Claude Code-generated scripts. Each agent must:
+
+- ✅ Reference shared Airtable state for data handoffs (poll for updates every 15-30 min)
+- ✅ Log all actions (e.g., "Scraped 25 IG profiles at 2025-08-13 14:00; extracted bios with 'tea ceremony' keywords")
+- ✅ Retry on errors (e.g., after 48 hours for non-responses, up to 3x)
+- ✅ Flag for human review: Low-confidence results, potential biases, or compliance issues
+
+### 🔍 Researcher Agent
+
+**Tasks**:
+- Scrape public data from Instagram and wedding sites
+- Target 20-50 initial items
+- Focus on public profiles/pages only
+
+**Instagram Hashtags**:
+- `#OCWeddingPlanner`
+- `#AsianWeddingOC`
+- `#MulticulturalWeddingCA`
+- `#ChineseWeddingCA`
+
+**Wedding Sites**: WeddingWire/The Knot directories (search "full-service multicultural planners Orange County" with filters for Asian expertise)
+
+**Outputs**: Raw dataset in Airtable with columns:
+- Name
+- Contact email/phone
+- Bio summary
+- Reviews count/rating
+- Portfolio links
+- Estimated experience level in years
+- Keywords matched (e.g., "Cantonese banquet")
+
+**Automation**: Fully autonomous; use Apify for ethical proxies/delays (1-5s/request to mimic humans)
+
+**Key Notes**:
+- Limit depth to essentials (no deep comments scraping if time >15 min)
+- Prioritize planners with "tea ceremony," "bilingual MC," or "Cantonese traditions" keywords
+- Cross-reference for Orange County focus
+
+### 📊 Analyzer Agent
+
+**Tasks**:
+- Vet data from Researcher
+- Score planners (1-10 scale)
+- Shortlist top 5-10
+- Flag ambiguities
+
+**Scoring Criteria**:
+- **40%** multicultural fit (evidence of Asian weddings)
+- **30%** timeline availability (check bios for "available for short-notice")
+- **30%** reviews/sentiment (use GPT-4o to analyze)
+
+**Outputs**: Ranked shortlist in Airtable with:
+- Summaries
+- Scores
+- Flags
+- Rationale (e.g., "Score 8/10: Handled 5 Chinese weddings in 2024 per reviews")
+
+**Automation**: Partially (AI scores/summarizes; notify human for flag reviews before proceeding)
+
+**Key Notes**:
+- Mitigate bias with diverse keywords
+- Ensure scores reflect urgency (penalize non-responsive or booked profiles)
+- Visualize rankings with simple tables in logs
+
+### 📧 Outreach Agent
+
+**Tasks**:
+- Generate/send templated emails/SMS via Twilio
+- Track responses
+- Auto-follow up after 48 hours
+- Propose/schedule calls via Calendly API
+- Log proposals/notes
+
+**Email Template Example**:
+> "Hello [Name], We're seeking a full-service planner for an OC wedding in Jan 2026 with Asian tea ceremony and 3-4 month timeline—your experience with Cantonese traditions seems ideal. Available for a quick call?"
+
+**Outputs**: Communication logs in Airtable with columns:
+- Status (sent/responded/scheduled)
+- Responses text
+- Call summaries
+
+**Automation**: Partially (AI drafts/sends; human approves batches of 5-10 emails)
+
+**Key Notes**:
+- Disclose AI use ("This is an AI-assisted inquiry from [Human Name]")
+- Comply with CAN-SPAM (opt-out links, verified sender)
+- Emphasize 3-4 month timeline and cultural specifics
+- If no email, use public phone for SMS
+
+---
+
+## 3. Tools and Integrations
+
+### Core Tools
+
+| Tool | Purpose | Cost |
+|------|---------|------|
+| **Claude Code** | Core Orchestrator (Anthropic API) | ~$10-20/mo (~1M tokens) |
+| **CrewAI** | Agent Framework | Free (local open-source) |
+| **Apify Starter** | Ethical web scraper | ~$49/mo + pay-as-you-go |
+| **Airtable Free** | Storage/Logging | Free (up to 1,200 records) |
+| **OpenAI API** | Analysis (GPT-4o) | ~$10-20/mo (~1M tokens) |
+| **Twilio** | Communications | ~$20-30/mo (50-100 emails/SMS) |
+| **Calendly Standard** | Call booking | ~$10/mo per user |
+
+### Integration Rules
+
+- ✅ All via APIs in scripts (use requests lib for HTTP)
+- ✅ No internet-dependent installs (pre-available libs only)
+- ✅ Test connectivity in setup
+- ✅ Log API calls for audits
+
+### Cost Management
+Monitor usage (<1M tokens across APIs); total < $150/mo. Alert humans if approaching limits.
+
+---
+
+## 4. Ethical and Compliance Guidelines
+
+Agents must prioritize ethics in every action—**non-compliance triggers immediate pause and human notification**.
+
+### Privacy (CCPA)
+- ✅ Scrape/log only public, anonymized data
+- ✅ No personal info without consent
+- ✅ Delete after use
+
+### TOS Compliance
+- ✅ No scraping logins/private data
+- ✅ Use Apify's compliant mode with delays
+- ✅ No auto-DMs on IG (TOS violation—stick to email/SMS)
+
+### Bias Mitigation
+- ✅ Use inclusive keywords (variants for "Chinese," "Taiwanese," "Singaporean" traditions)
+- ✅ Diversify shortlists (aim for gender/ethnic balance)
+- ✅ Human reviews shortlists for cultural nuance
+
+### Transparency
+- ✅ Disclose AI in outreaches ("Generated by AI system on behalf of [Human]")
+- ✅ Provide opt-out links
+
+### Legal
+- ✅ Adhere to CAN-SPAM (no unsolicited spam, include physical address)
+- ✅ Audit logs for all actions (timestamped in Airtable with rationale)
+
+### Sustainability
+- ✅ Minimize API calls/energy (batch scrapes, cache results)
+- ✅ Prioritize eco-friendly planners (score bonus for "sustainable" in bios)
+
+### Accountability
+- ✅ If errors occur, flag and retry
+- ✅ Humans liable for finals—provide full logs for review
+
+---
+
+## 5. Workflow Steps and Handoffs
+
+### Step-by-Step Process
+
+| Step | Timeline | Activities |
+|------|----------|------------|
+| **Step 1** | Days 1-3 | Human inputs specs JSON → Researcher scrapes (target 20-50) → Analyzer vets/shortlists (top 5-10) → Human approves shortlist |
+| **Step 2** | Days 4-8 | Outreach sends contacts/follow-ups (batch approve) → Tracks responses (auto-log) → Schedules calls |
+| **Step 3** | Days 9-12 | Humans attend calls; Outreach logs summaries |
+| **Step 4** | Days 13-14 | Analyzer compiles rankings → Human decides → Outreach drafts handoff brief |
+
+### Handoffs
+- ✅ Use Airtable as shared state
+- ✅ Agents poll for updates
+- ✅ Include example schemas for Planners table and Logs
+
+### Error Handling
+- ✅ Retries (3x on scrape fails with exponential backoff)
+- ✅ Escalate to human if unresolved
+
+---
+
+## 6. Risks and Mitigations
+
+| Risk | Mitigation |
+|------|------------|
+| **Low Responses** | Follow up aggressively (48h, then 72h); expand shortlist to 15 if <3 replies; use SMS for non-email responders |
+| **Timeline Delays** | Buffer for weekends/holidays; prioritize responsive planners in scoring |
+| **Data Inaccuracy** | Cross-validate; human flags inconsistencies in approvals |
+| **Costs/Tech Fails** | Monitor usage dashboards; fallback to manual scraping if APIs down |
+| **Cultural Misalignment** | Agents flag non-exact matches; humans verify in calls |
+
+---
+
+## Summary
+
+**This context is the "source of truth"**—agents must align all operations to it. If ambiguities arise (e.g., conflicting specs), query human via notification. System designed for extension (e.g., post-hire vendor assist) while keeping delegation maximal and human touch minimal.

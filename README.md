@@ -1,1 +1,3 @@
-# AI-Powered Wedding Planner Hiring System (Node.js/TypeScript)
+# Wedding Planner Hiring System
+
+Please see the [docs](/docs) directory for documentation and setup instructions.
