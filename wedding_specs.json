@@ -1,53 +1,54 @@
 {
   "vision": {
-    "core": "authentic 80s/90s Asian banquet wedding",
-    "approach": "pragmatic like it was actually done then",
-    "modern_twist": "relaxed second half with lounge/arcade",
-    "audience": "memorable for first-timers to this tradition"
+    "core": "authentic 80s/90s Asian banquet wedding with 1990s Japanese city pop twists",
+    "approach": "pragmatic like it was actually done then, with elegant modern accents for comfort",
+    "modern_twist": "relaxed second half with neon-lit lounge/arcade and fusion elements",
+    "audience": "memorable for first-timers, engaging for young guests with stylish updates"
   },
   
   "non_negotiables": {
     "venue_zones": {
-      "main_dining": "200-220 guests at round tables, stage for ceremonies",
-      "lounge_arcade": "secondary space opening at 7:45pm",
-      "entrance_hall": "red envelope station and guestbook",
-      "window_side": "VIP seating or photo area"
+      "main_dining": "200-220 guests at 20-22 round tables with lazy Susans, stage for ceremonies; soft white walls for neon reflections",
+      "lounge_arcade": "secondary space opening at 7:45pm with understated neon kanji signs, konbini snack spot, and lone arcade machine",
+      "entrance_hall": "red envelope station and guestbook with subtle digital QR for app check-in",
+      "window_side": "VIP seating or photo area overlooking hazy urban view"
     },
     "program_anchors": [
-      "grand entrance (2 min)",
-      "tea ceremony on stage (10-12 min)",
+      "grand entrance (2 min) with subtle city pop remix",
+      "tea ceremony on stage (10-12 min) with short video montage",
       "family + friend toasts (6-8 min total)",
-      "cake/champagne moment (3-4 min)",
-      "group photo on stage (5-7 min)",
+      "cake/champagne moment (3-4 min) with fusion desserts",
+      "group photo on stage (5-7 min) with nearby AR photo booth",
       "table-to-table visits during dinner"
     ],
     "flow": {
-      "unified_start": "6:00-7:45pm all in main dining",
-      "lounge_opens": "7:45pm after ceremonies",
+      "unified_start": "6:00-7:45pm all in main dining under warm amber lights",
+      "lounge_opens": "7:45pm after ceremonies, with teal/pink neon glow and games",
       "mc_recalls": ["8:45pm group photo", "9:45pm final thanks"]
     }
   },
   
   "atmosphere": {
-    "feeling": "warm, bustling, lived-in banquet hall",
-    "aesthetic": "venue's existing decor plus minimal red/gold touches",
+    "feeling": "warm, bustling, lived-in banquet hall with serene city pop haze",
+    "aesthetic": "venue's existing decor plus minimal red/gold touches, retro boombox centerpieces, gentle teal/pink neon washes",
     "sensory": {
-      "sound": "Cantopop, chatter, clinking dishes, karaoke",
-      "smell": "Chinese banquet food throughout",
-      "visual": "warm lighting, not production lighting",
-      "taste": "8-10 course traditional banquet"
+      "sound": "Cantopop remixed with city pop beats, chatter, clinking dishes, karaoke duets",
+      "smell": "Chinese banquet food with fusion dessert notes",
+      "visual": "dim amber lighting blending into neon reflections, soft film-like haze",
+      "taste": "8-10 course traditional banquet with fusion hybrids like yuzu spritzers"
     },
     "memorable_elements": [
-      "authentic tea ceremony",
-      "table lazy Susans spinning",
-      "uncle singing karaoke",
-      "kids running between tables",
-      "genuine candid moments"
+      "authentic tea ceremony with video montage",
+      "lazy Susans spinning symbolic dishes",
+      "karaoke with remixed classics",
+      "kids playing in neon-lit lounge",
+      "candid moments captured in retro film style",
+      "interactive app polls and photo sharing"
     ]
   },
   
   "food_specifications": {
-    "style": "Traditional Cantonese banquet",
+    "style": "Traditional Cantonese banquet with subtle city pop fusion twists",
     "courses": "8-10 courses",
     "must_include": [
       "roast suckling pig",
@@ -55,37 +56,38 @@
       "steamed whole fish",
       "lobster or crab",
       "fried rice",
-      "dessert/sweet soup"
+      "fusion dessert/sweet soup (e.g., matcha mochi or White Rabbit ice cream)"
     ],
     "service": "family style with lazy Susan",
-    "pacing": "restaurant controls timing"
+    "pacing": "restaurant controls timing",
+    "additions": "konbini-style snacks in lounge (senbei crackers, ramune sodas)"
   },
   
   "planner_profile": {
     "essential_experience": [
-      "Chinese restaurant banquet weddings",
-      "Working with OC Chinese restaurants",
-      "Understanding restaurant-run model",
-      "Tea ceremony coordination"
+      "Chinese restaurant banquet weddings with fusion elements",
+      "Working with OC Chinese restaurants on modern twists",
+      "Understanding restaurant-run model while adding stylish accents",
+      "Tea ceremony coordination with video montages"
     ],
     "must_understand": [
-      "Restaurant runs the show",
-      "Work WITH existing setup",
-      "Authenticity over aesthetics",
-      "Simple is better"
+      "Venue/food already booked—focus on hands-on coordination for everything else",
+      "Work WITH existing setup, adding subtle neon/retro elements",
+      "Authenticity with elegant city pop twists over aesthetics",
+      "Simple and stylish is better"
     ],
     "red_flags": [
-      "Portfolio full of styled shoots",
-      "Wants to transform venue",
-      "No Chinese banquet experience",
+      "Portfolio full of over-styled shoots",
+      "Wants to transform venue beyond minimal twists",
+      "No Chinese banquet or fusion experience",
       "Overproduction tendency",
-      "Too many vendor suggestions"
+      "Too many vendor suggestions outside essentials"
     ],
     "green_flags": [
-      "Has done Capital Seafood weddings",
-      "Understands restaurant packages",
-      "Minimal decoration approach",
-      "Respects traditional flow"
+      "Has done Capital Seafood weddings with neon/retro additions",
+      "Understands restaurant packages while enhancing with apps/neon",
+      "Minimal yet stylish decoration approach",
+      "Respects traditional flow with modern engagement"
     ]
   },
   
@@ -98,13 +100,14 @@
   ],
   
   "budget_breakdown": {
-    "venue_and_food": "$15,000-20,000",
-    "planner_fee": "$5,000-10,000",
+    "venue_and_food": "$15,000-20,000 (already booked)",
+    "planner_fee": "$3,000-5,000",
     "photography": "$2,000-3,000",
     "mc_and_av": "$1,000-1,500",
     "flowers_minimal": "$500-1,000",
     "misc_red_envelopes_signage": "$500",
-    "total_realistic": "$50,000-100,000"
+    "modern_twists_neon_app": "$1,000-1,500",
+    "total_realistic": "$25,000-30,000"
   },
   
   "timeline": {
@@ -115,28 +118,27 @@
   },
   
   "day_of_schedule": {
-    "3:30pm": "Crew setup",
+    "3:30pm": "Crew setup (including neon and app integration)",
     "5:15pm": "Couple arrives",
-    "6:00pm": "Doors open",
-    "6:40pm": "Grand entrance",
+    "6:00pm": "Doors open (app check-in)",
+    "6:40pm": "Grand entrance (city pop remix)",
     "6:45pm": "Course 1 served",
-    "6:55pm": "Tea ceremony",
+    "6:55pm": "Tea ceremony (with video montage)",
     "7:10pm": "Courses 2-3, table visits begin",
-    "7:35pm": "Toasts",
-    "7:45pm": "LOUNGE OPENS, courses 4-5",
-    "8:15pm": "Cake/champagne",
-    "8:45pm": "Group photo",
-    "9:00pm": "Karaoke/free flow",
-    "9:45pm": "Final thanks",
-    "10:00pm": "Service ends",
-    "10:30pm": "Hard stop"
+    "7:35pm": "Toasts (fusion champagne)",
+    "7:45pm": "LOUNGE OPENS (neon glow, courses 4-5, games/snacks)",
+    "8:15pm": "Cake/champagne (fusion desserts)",
+    "8:45pm": "Group photo (AR booth nearby)",
+    "9:00pm": "Karaoke/free flow (remixed playlist)",
+    "9:45pm": "Final thanks, party time",
+    "12:30am": "Soft stop"
   },
   
   "outcome_goals": [
     "Elders feel respected through proper traditions",
-    "Friends enjoy relaxed second half",
-    "First-timers remember unique experience",
-    "Flow feels natural and effortless",
-    "Authentic without being rigid"
+    "Young guests enjoy stylish twists like neon and app",
+    "First-timers remember unique fusion experience",
+    "Flow feels natural and effortless with modern comfort",
+    "Authentic core with elegant, inclusive updates"
   ]
 }

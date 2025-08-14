@@ -11,36 +11,36 @@
 ## 1. Project Goal and Scope
 
 ### Primary Objective
-Autonomously identify, vet, outreach to, schedule calls with, and facilitate hiring of **1-3 full-service wedding planners** experienced in multicultural weddings (with a strong focus on Asian traditions, particularly Chinese/Cantonese customs). The hired planner will have **3-4 months** to execute the full wedding, emphasizing urgency in all interactions to ensure timely delivery without compromising cultural authenticity.
+Autonomously identify, vet, outreach to, schedule calls with, and facilitate hiring of **1-3 full-service wedding planners** experienced in multicultural weddings (with a strong focus on Asian traditions, particularly Chinese/Cantonese customs). The hired planner will have **3-4 months** to execute the full wedding, emphasizing urgency in all interactions to ensure timely delivery without compromising cultural authenticity. Since the venue and food are already booked and finalized (with the restaurant handling only those aspects), the planner must be deeply involved in every other step, providing hands-on coordination for decor, vendors, day-of execution, and all additional elements.
 
 ### Wedding Vision
 *To help agents visualize and align:*
 
-The wedding is an **authentic recreation of 1980s–1990s Chinese restaurant banquets** as done by immigrant families in US Chinatowns or suburbs (e.g., Monterey Park or Irvine). Picture a bustling Cantonese seafood restaurant in Orange County, filled with 200-220 guests at round tables with Lazy Susans, serving symbolic 8-10 course meals (e.g., whole suckling pig for prosperity, steamed fish for abundance).
+The wedding is an **authentic recreation of 1980s–1990s Chinese restaurant banquets** as done by immigrant families in US Chinatowns or suburbs (e.g., Monterey Park or Irvine), infused with subtle 1990s Japanese city pop influences for elegant modern twists. Picture a bustling Cantonese seafood restaurant in Orange County, filled with 200-220 guests at round tables with Lazy Susans, serving symbolic 8-10 course meals (e.g., whole suckling pig for prosperity, steamed fish for abundance).
 
-**Atmosphere**: Warm and familiar—elders sharing stories in Cantonese over Tsingtao beer, younger guests mixing English conversations, kids playing amid clinking glasses and steaming dim sum aromas.
+**Atmosphere**: Picture 300+ candles flickering across 22 tables, creating intimate pools of warm light throughout the banquet hall. A large neon 囍 glows softly behind the tea ceremony stage. In the lounge, another neon sign in Japanese/English casts pink-teal shadows. This simple lighting transforms a standard restaurant into something cinematic—like your favorite Wong Kar-wai film, but filled with family laughter, elders sharing stories in Cantonese over Tsingtao beer, and kids playing amid clinking glasses and steaming dim sum aromas.
 
-**Décor**: Venue-standard—red curtains, gold accents, 囍 symbols, glossy tiled floors under warm incandescent lighting.
+**Décor**: Venue-standard—red curtains, gold accents, 囍 symbols, glossy tiled floors under warm incandescent lighting—with subtle additions like understated retro boombox centerpieces, faint red-gold details, and neon kanji illumination in the lounge.
 
 **Key Traditions**:
 - Tea ceremony on a simple stage (bride/groom serving tea to elders for blessings and red envelopes)
 - Bilingual announcements (Cantonese/English)
-- Natural flow without staging—guests mingle post-dinner in a lounge with karaoke of 80s/90s hits like Teresa Teng songs
+- Natural flow without staging—guests mingle post-dinner in a lounge with karaoke of 80s/90s hits like Teresa Teng songs, remixed with city pop beats
 
-**Modern Touches**: A secondary lounge for mingling with light games (e.g., mahjong). No over-styling or Instagram twists—keep it genuine, as if captured on vintage film.
+**Modern Touches**: A secondary lounge for mingling with understated neon kanji signs, konbini-style snacks (e.g., senbei crackers or fusion hybrids), and a lone arcade machine; wedding app for updates and photo sharing. No over-styling—keep it genuine yet stylish, as if captured on vintage film with soft haze and pastels.
 
 ### Wedding Specifics
 
 | Category | Details |
 |----------|---------|
 | **Date** | Target January 2026 (exact mid-month for auspicious timing; adjust for 3-4 month execution window from hire date ~September 1, 2025) |
-| **Location** | Orange County, CA (e.g., Irvine or Westminster; venue like traditional Cantonese seafood restaurant such as Capital Seafood) |
+| **Location** | Orange County, CA (e.g., Irvine or Westminster; venue already booked—a traditional Cantonese seafood restaurant such as Capital Seafood—handling only venue and food; planner coordinates all else) |
 | **Guest Count** | 200-220 (multi-generational mix: family from Asia/US, friends, colleagues) |
 | **Capacity** | Main hall and lounge for 200-220 guests |
 | **Cultural Elements** | Must-have experience with Asian traditions: tea ceremony, attire changes, bilingual MC, red envelope system, symbolic Cantonese banquet dishes |
-| **Services Required** | Full-service (end-to-end planning, vendor coordination, day-of execution) |
-| **Budget** | $50K-100K total wedding (planner fee $5K-10K; venue/food $15-20K; photography $2-3K; other $2-3K) |
-| **Preferences** | Eco-friendly options preferred; deal-breakers include unavailability for rushed timelines, lack of multicultural expertise, or attempts to "modernize" |
+| **Services Required** | Full-service (end-to-end planning beyond venue/food, hands-on vendor coordination, decor twists, day-of execution; e.g., neon setup, app integration, photographer/MC) |
+| **Budget** | $25-30K total wedding (planner fee $3-5K; venue/food already covered at $15-20K; photography $2-3K; other $2-3K for candles ($200), 2 neon signs ($800), MC, fusion items, app) |
+| **Preferences** | Eco-friendly options preferred; deal-breakers include unavailability for rushed timelines, lack of multicultural expertise, or attempts to "modernize" excessively |
 | **Urgency** | Emphasize short execution window in all outreaches |
 
 ### Success Criteria
@@ -93,8 +93,10 @@ Agents operate in a **CrewAI framework**, orchestrated by Claude Code-generated 
 - `#AsianWeddingOC`
 - `#MulticulturalWeddingCA`
 - `#ChineseWeddingCA`
+- `#CityPopWedding`
+- `#FusionAsianWedding`
 
-**Wedding Sites**: WeddingWire/The Knot directories (search "full-service multicultural planners Orange County" with filters for Asian expertise)
+**Wedding Sites**: WeddingWire/The Knot directories (search "full-service multicultural planners Orange County" with filters for Asian expertise and fusion/retro elements)
 
 **Outputs**: Raw dataset in Airtable with columns:
 - Name
@@ -103,13 +105,13 @@ Agents operate in a **CrewAI framework**, orchestrated by Claude Code-generated 
 - Reviews count/rating
 - Portfolio links
 - Estimated experience level in years
-- Keywords matched (e.g., "Cantonese banquet")
+- Keywords matched (e.g., "Cantonese banquet," "city pop decor")
 
 **Automation**: Fully autonomous; use Apify for ethical proxies/delays (1-5s/request to mimic humans)
 
 **Key Notes**:
 - Limit depth to essentials (no deep comments scraping if time >15 min)
-- Prioritize planners with "tea ceremony," "bilingual MC," or "Cantonese traditions" keywords
+- Prioritize planners with "tea ceremony," "bilingual MC," "Cantonese traditions," or "city pop fusion" keywords
 - Cross-reference for Orange County focus
 
 ### 📊 Analyzer Agent
@@ -121,7 +123,7 @@ Agents operate in a **CrewAI framework**, orchestrated by Claude Code-generated 
 - Flag ambiguities
 
 **Scoring Criteria**:
-- **40%** multicultural fit (evidence of Asian weddings)
+- **40%** multicultural fit (evidence of Asian weddings with fusion twists)
 - **30%** timeline availability (check bios for "available for short-notice")
 - **30%** reviews/sentiment (use GPT-4o to analyze)
 
@@ -148,7 +150,7 @@ Agents operate in a **CrewAI framework**, orchestrated by Claude Code-generated 
 - Log proposals/notes
 
 **Email Template Example**:
-> "Hello [Name], We're seeking a full-service planner for an OC wedding in Jan 2026 with Asian tea ceremony and 3-4 month timeline—your experience with Cantonese traditions seems ideal. Available for a quick call?"
+> "Hello [Name], Venue/food booked for our Jan 2026 OC wedding—seeking full-service planner for Asian tea ceremony, city pop twists, and 3-4 month timeline. Your Cantonese fusion experience fits perfectly. Quick call?"
 
 **Outputs**: Communication logs in Airtable with columns:
 - Status (sent/responded/scheduled)
@@ -160,7 +162,7 @@ Agents operate in a **CrewAI framework**, orchestrated by Claude Code-generated 
 **Key Notes**:
 - Disclose AI use ("This is an AI-assisted inquiry from [Human Name]")
 - Comply with CAN-SPAM (opt-out links, verified sender)
-- Emphasize 3-4 month timeline and cultural specifics
+- Emphasize 3-4 month timeline, cultural specifics, and that venue/food is handled
 - If no email, use public phone for SMS
 
 ---
