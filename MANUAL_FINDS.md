@@ -42,137 +42,185 @@
 
 ---
 
-### 3. Helen Liu – Perfectly Planned by Helen ⭐ Score: 8/10
+### 3. JD Events Co ⭐ Score: 7.5/10
 
-**Business:** Perfectly Planned by Helen  
-**Contact:** info@perfectlyplannedbyhelen.com • 949-478-0902 • [perfectlyplannedbyhelen.com](https://perfectlyplannedbyhelen.com)  
-**Instagram:** [@perfectlyplannedbyhelen](https://instagram.com/perfectlyplannedbyhelen)
+**Business:** JD Events Co  
+**Owner:** Jessica Duong (Asian-owned)  
+**Location:** Fountain Valley, CA (Orange County)  
+**Contact:** [WeddingWire Profile](https://www.weddingwire.com/biz/jd-events-co/57b806a22fba5418.html)
+
+**Services & Pricing:**
+- Wedding Coordination: Starting at $3,000 ✅
+- Full Planning: $5,000-$6,000
+- Venue Concierge: $400
 
 **Chinese Wedding Experience:**
-- Portfolio features double-happiness tea ceremonies
-- 10-course banquets at Seafood World
-- Neon 囍 backdrops
+- Asian-owned business with cultural wedding experience
+- Experience with Vietnamese cultural elements (Lion Dancers)
+- Vendor contract review expertise
 
-**Why They Fit:** OC-based, fluent in Cantonese & Mandarin, comfortable with 3-4 month timelines, and has neon rental partners.
+**Why They Fit:** OC-based, Asian-owned, within budget range for coordination, 5+ years experience, personalized approach.
 
-**Availability:** ✅ Confirmed – Recent post: "Now booking Winter 2025-Spring 2026."
+**Availability:** Unknown - inquiry needed
 
-**Notable Quote:** "From lion dances to late-night dim sum, we orchestrate every beloved Cantonese detail."
+**Notable Quote:** "Jessica went above and beyond... made our wedding day so special."
 
 ---
 
-### 4. Valerie Chau – Events by Valerie ⭐ Score: 8/10
+### 4. Mars Production ⭐ Score: 6/10
 
-**Business:** Events by Valerie  
-**Contact:** hello@eventsbyvalerie.com • 714-823-5520 • [eventsbyvalerie.com](https://eventsbyvalerie.com)  
-**Instagram:** [@eventsbyvalerie](https://instagram.com/eventsbyvalerie)
+**Business:** Mars Production  
+**Location:** Garden Grove, CA (Orange County)  
+**Contact:** 11352 Trask Ave Suite I-101 • [marsprod.com](https://www.marsprod.com/about-5)  
+**Instagram:** [@marsprod.co](https://instagram.com/marsprod.co)
+
+**Services & Pricing:**
+- Day of Coordination (12 hours)
+- Day of + Light Planning (14 hours)
+- Full Planning (14+ hours)
+- Pricing not specified
 
 **Chinese Wedding Experience:**
-- Planned bilingual banquets at Capital Seafood Irvine
-- Manages lai-see stations & tea sets
+- No specific Asian/Chinese experience mentioned
+- Offers custom wedding designs
+- Free custom cake topper included
 
-**Why They Fit:** OC local, strong restaurant venue track record, and known for Wong Kar-wai inspired photo corners with vintage neon.
+**Why They Fit:** OC-based, flexible packages, unlimited communication, stress-reduction focus.
 
-**Availability:** ✅ Likely – IG highlights list "2026 inquiries welcome."
+**Availability:** Unknown - inquiry needed
 
-**Notable Quote:** "Restaurant weddings are my jam—give me round tables and 10 courses any day!"
+**Notable Feature:** Significant discounts for events they coordinate, balloon arch design services
 
 ---
 
-### 5. Christine Tran – Love Theory Events & Design ⭐ Score: 7.5/10
+### 5. Crystal Rose Events ⭐ Score: 8.5/10 🔥
 
-**Business:** Love Theory Events & Design  
-**Contact:** hello@lovetheoryevents.com • 949-444-0311 • [lovetheoryevents.com](https://lovetheoryevents.com)  
-**Instagram:** [@lovetheoryevents](https://instagram.com/lovetheoryevents)
+**Business:** CrystalRose Events LLC  
+**Location:** Los Angeles, CA (services OC)  
+**Contact:** [crystalroseevents.com](https://www.crystalroseevents.com/)  
+**Instagram:** [@crystalrose.events](https://instagram.com/crystalrose.events)
+
+**Services Offered:**
+- Full/Partial Planning
+- Day-of Coordination ✅
+- Content Creation
+- Photobooth Rentals
+- Catering services
 
 **Chinese Wedding Experience:**
-- Chinese-Vietnamese fusion banquet at Newport Seafood
-- Coordinated bilingual MC and tea ceremony
+- **Bilingual coordinators: Mandarin & Cantonese** ✅✅
+- Also Korean, Spanish, Vietnamese
+- Multicultural wedding planning expertise
+- Always TWO coordinators at events
 
-**Why They Fit:** Multicultural focus, city-pop aesthetic mood boards, and eco-friendly candle suppliers.
+**Why They Fit:** CANTONESE SPEAKING TEAM! Unlimited support, transparent pricing, personal care approach.
 
-**Availability:** ⚠️ Unknown (leaning open) – Last booking shown is Oct 2025.
+**Availability:** Unknown - inquiry needed
 
-**Notable Quote:** "Culture-rich celebrations with a modern, neon-lit twist."
+**Notable Quote:** "Let us turn your dreams into reality!"
 
 ---
 
-### 6. Cindy Chen – 3C Weddings & Events ⭐ Score: 7/10
+### 6. Sunny California Weddings ⭐ Score: 4/10
 
-**Business:** 3C Weddings & Events  
-**Contact:** info@3cweddings.com • 714-988-4410 • [3cweddings.com](https://3cweddings.com)  
-**Instagram:** [@3cweddings](https://instagram.com/3cweddings)
+**Business:** Sunny California Weddings  
+**Location:** Southern California  
+**Contact:** [sunnycaliforniaweddings.com](https://sunnycaliforniaweddings.com/featured-weddings/)  
+**Instagram:** [@sunnycaliforniaweddings](https://instagram.com/sunnycaliforniaweddings)
+
+**Services:**
+- Wedding Photography (primarily)
+- "All-Inclusive Wedding Day Storytelling"
 
 **Chinese Wedding Experience:**
-- Managed 220-guest Cantonese banquet at Seafood Palace
-- Provides tea ceremony furniture & bilingual hosts
+- Has photographed Chinese weddings
+- Cultural wedding coverage in portfolio
 
-**Why They Fit:** Trio of Cantonese-speaking planners, strong relationships with OC seafood restaurants, and tech-savvy (custom guest apps).
+**Why They DON'T Fit:** Primarily a PHOTOGRAPHY service, not planning/coordination. Beautiful work but wrong service type.
 
-**Availability:** ⚠️ Unknown – No 2026 dates listed; inquiry needed.
-
-**Notable Quote:** "We handle every dumpling, lantern, and lai-see so you can celebrate."
+**Notable Venues:** Hotel Bel Air, Ritz Carlton, Pelican Hill
 
 ---
 
-### 7. Charlene Li – Charmed Events Group ⭐ Score: 6.5/10
+### 7. Chill Celebrations ⭐ Score: 5/10
 
-**Business:** Charmed Events Group (SF-based, services OC)  
-**Contact:** info@charmedevents.com • 408-655-9437 • [charmedevents.com](https://charmedevents.com)  
-**Instagram:** [@charmedevents](https://instagram.com/charmedevents)
+**Business:** CHill Celebrations LLC  
+**Location:** Silverado, CA (Orange County)  
+**Contact:** 949-235-4720 • events@chillcelebrations.com • [chillcelebrations.com](https://www.chillcelebrations.com/)
+
+**Services:**
+- Wedding Planning & Coordination
+- Orange County focused
 
 **Chinese Wedding Experience:**
-- High-end Chinese tea ceremonies & neon installations at Bower's Museum and LA River Studios
+- No specific cultural experience mentioned
+- General wedding planning services
 
-**Why They Fit:** Renowned for Asian-fusion luxury and cinematic Wong Kar-wai styling; will travel for OC banquets.
+**Why They Might Fit:** OC-based, newer business (est. 2022-2026), collaborative approach.
 
-**Availability:** ✅ Likely – 2026 calendar shows "select dates."
+**Availability:** Unknown - inquiry needed
 
-**Notable Quote:** "Heritage-driven design with a dash of moody romance."
+**Notable Feature:** Listed on The Knot, Wedding Wire, and Zola
 
 ---
 
-### 8. Wish Wonder Dream (Team Lead: Tessa Lyn Brand) ⭐ Score: 6/10
+### 8. Events by Demi ⭐ Score: 9/10 🔥🔥
 
-**Business:** Wish Wonder Dream  
-**Contact:** info@wishwonderdream.com • 626-539-3588 • [wishwonderdream.com](https://wishwonderdream.com)  
-**Instagram:** [@wishwonderdream](https://instagram.com/wishwonderdream)
+**Business:** Events by Demi  
+**Owner:** Demi (Asian-owned, Woman-owned)  
+**Location:** Anaheim, CA (Orange County)  
+**Contact:** 714-349-0354 • [WeddingWire Profile](https://www.weddingwire.com/biz/events-by-demi/1b8809fcaea98a1c.html)
+
+**Services & Pricing:**
+- Day-of Coordination: Starting at $1,300 ✅✅
+- Partial Planning: $1,800
+- Full Planning: $4,000
 
 **Chinese Wedding Experience:**
-- Coordinated Chinese-American weddings at Monterey Park restaurants
-- Tea ceremony rentals available
+- **Multi-language services: English, Mandarin, Korean** ✅
+- Asian-owned business
+- Cultural wedding expertise (Asian, Western, Religious/Non-Religious)
+- 4-person team
 
-**Why They Fit:** Large bilingual staff, extensive vendor list, and experience with 300-candle ballroom looks.
+**Why They Fit:** AMAZING PRICING! Mandarin speaking, OC-based, 5.0/5.0 rating (9 reviews), culturally experienced, woman & Asian-owned.
 
-**Availability:** ⚠️ Unknown – Last IG post July 2025, accepting "2025-26 couples."
+**Availability:** Unknown - inquiry needed (founded 2022, likely has openings)
 
-**Notable Quote:** "We turn cultural traditions into unforgettable modern moments."
+**Notable Quote:** "Working with Demi and her team was a dream!"
 
 ---
 
-## 🎯 Top 3 to Contact First
+## 🎯 Updated Rankings After Deep Analysis
 
-Based on your specific needs (Chinese banquet at restaurant, tea ceremony, city pop/neon touches, 3-4 month timeline):
+**TOP TIER (Must Contact):**
+1. **Events by Demi** - Score: 9/10 🔥🔥 - BEST VALUE ($1,300 coordination), Mandarin speaking, Asian-owned
+2. **Judy Lee (Royce Weddings)** - Score: 9/10 - Capital Seafood expert, Cantonese team
+3. **Crystal Rose Events** - Score: 8.5/10 🔥 - CANTONESE & MANDARIN team, 2 coordinators always
+4. **Sarah Wang (My Wedding Songbird)** - Score: 8.5/10 - Bilingual MC + planning combo
 
-1. **Judy Lee (Royce Weddings)** - Perfect fit with Capital Seafood experience
-2. **Sarah Wang (My Wedding Songbird)** - Great for bilingual MC + planning combo
-3. **Helen Liu (Perfectly Planned)** - OC-based with confirmed availability
+**SECOND TIER (Worth Considering):**
+5. **JD Events Co** - Score: 7.5/10 - Asian-owned, good pricing ($3,000)
 
-## 📧 Next Steps
+**LOWER PRIORITY:**
+6. **Mars Production** - Score: 6/10 - No cultural experience mentioned
+7. **Chill Celebrations** - Score: 5/10 - Generic services, no cultural expertise
+8. **Sunny California Weddings** - Score: 4/10 - PHOTOGRAPHY ONLY (not planning)
 
-1. **Send initial emails today** to top 3
-2. **Follow up in 48 hours** if no response
-3. **Schedule calls** for next week
-4. **Have backup ready** (Valerie Chau & Christine Tran)
+## 📧 Immediate Action Plan
 
-## 💡 Key Talking Points for Outreach
+1. **Contact TOP 4 TODAY:**
+   - Events by Demi (best value + Mandarin)
+   - Crystal Rose Events (Cantonese speakers!)
+   - Judy Lee (proven experience)
+   - Sarah Wang (MC services)
 
-- Venue already booked (Chinese seafood restaurant)
-- Need coordination only (not full planning)
-- 3-4 month timeline starting September
-- Budget: $3-5K for coordination
-- Specific needs: Tea ceremony, bilingual MC, subtle neon touches
-- Guest count: 200-220
+2. **Key Talking Points:**
+   - January 2026 wedding date
+   - Chinese seafood restaurant venue (already booked)
+   - 200-220 guests
+   - Need: Tea ceremony, bilingual MC, day-of coordination
+   - Budget: $3-5K for coordination
+   - 3-4 month planning timeline
 
 ---
 
