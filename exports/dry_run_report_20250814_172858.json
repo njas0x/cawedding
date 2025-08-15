@@ -1,0 +1,38 @@
+{
+  "execution_time": "2025-08-14T17:28:58.799805",
+  "mode": "DRY RUN SIMULATION",
+  "phases_completed": [
+    "research",
+    "analysis",
+    "outreach",
+    "follow_up",
+    "decision"
+  ],
+  "planners_discovered": 5,
+  "planners_shortlisted": 5,
+  "emails_generated": 3,
+  "responses_simulated": 3,
+  "final_recommendation": {
+    "name": "Sarah Chen",
+    "business": "Elegant Fusion Weddings",
+    "score": 92,
+    "reasons": [
+      "Excellent Chinese tea ceremony expertise",
+      "Strong fusion wedding experience",
+      "Available for January 2026",
+      "Within budget range"
+    ]
+  },
+  "costs": {
+    "research": "$0.00 (simulated)",
+    "analysis": "$0.00 (simulated)",
+    "outreach": "$0.00 (simulated)",
+    "total": "$0.00"
+  },
+  "safety_measures": [
+    "No real API calls made",
+    "No emails actually sent",
+    "No planners contacted",
+    "All data is mock/simulated"
+  ]
+}

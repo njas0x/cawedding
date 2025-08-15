@@ -148,7 +148,7 @@ class WeddingPlannerOrchestrator:
                 success_criteria={
                     "hired_planners": 1
                 }
-            }
+            )
         }
         
         self.current_phase = "research"
